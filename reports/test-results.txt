@@ -1,0 +1,75 @@
+Creating test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+Found 40 test(s).
+Operations to perform:
+  Synchronize unmigrated apps: admindocs, messages, staticfiles
+  Apply all migrations: admin, auth, contenttypes, sessions, tours
+Synchronizing apps without migrations:
+  Creating tables...
+    Running deferred SQL...
+Running migrations:
+  Applying contenttypes.0001_initial... OK
+  Applying auth.0001_initial... OK
+  Applying admin.0001_initial... OK
+  Applying admin.0002_logentry_remove_auto_add... OK
+  Applying admin.0003_logentry_add_action_flag_choices... OK
+  Applying contenttypes.0002_remove_content_type_name... OK
+  Applying auth.0002_alter_permission_name_max_length... OK
+  Applying auth.0003_alter_user_email_max_length... OK
+  Applying auth.0004_alter_user_username_opts... OK
+  Applying auth.0005_alter_user_last_login_null... OK
+  Applying auth.0006_require_contenttypes_0002... OK
+  Applying auth.0007_alter_validators_add_error_messages... OK
+  Applying auth.0008_alter_user_username_max_length... OK
+  Applying auth.0009_alter_user_last_name_max_length... OK
+  Applying auth.0010_alter_group_name_max_length... OK
+  Applying auth.0011_update_proxy_permissions... OK
+  Applying auth.0012_alter_user_first_name_max_length... OK
+  Applying sessions.0001_initial... OK
+  Applying tours.0001_initial...test_admindocs_models_and_views (tours.tests.TourTests.test_admindocs_models_and_views) ... ok
+test_admindocs_requires_staff (tours.tests.TourTests.test_admindocs_requires_staff) ... ok
+test_anonymous_cannot_submit (tours.tests.TourTests.test_anonymous_cannot_submit) ... ok
+test_booking_ignores_forged_identity_and_attendance (tours.tests.TourTests.test_booking_ignores_forged_identity_and_attendance) ... ok
+test_booking_invalid_dates (tours.tests.TourTests.test_booking_invalid_dates) ... ok
+test_booking_post (tours.tests.TourTests.test_booking_post) ... ok
+test_catalog_and_detail (tours.tests.TourTests.test_catalog_and_detail) ... ok
+test_client_cannot_create_tours_or_categories (tours.tests.TourTests.test_client_cannot_create_tours_or_categories) ... ok
+test_comment_cannot_forge_user_or_tour (tours.tests.TourTests.test_comment_cannot_forge_user_or_tour) ... ok
+test_comment_rating_boundaries (tours.tests.TourTests.test_comment_rating_boundaries) ... ok
+test_comment_without_booking_rejected (tours.tests.TourTests.test_comment_without_booking_rejected) ... ok
+test_csrf_all_forms (tours.tests.TourTests.test_csrf_all_forms) ... ok
+test_different_times_allowed (tours.tests.TourTests.test_different_times_allowed) ... ok
+test_different_users_same_time_allowed (tours.tests.TourTests.test_different_users_same_time_allowed) ... ok
+test_duplicate_booking_database (tours.tests.TourTests.test_duplicate_booking_database) ... ok
+test_duplicate_booking_post (tours.tests.TourTests.test_duplicate_booking_post) ... ok
+test_empty_catalog (tours.tests.TourTests.test_empty_catalog) ... ok
+test_future_attendance_rejected (tours.tests.TourTests.test_future_attendance_rejected) ... ok
+test_future_visit_rejected (tours.tests.TourTests.test_future_visit_rejected) ... ok
+test_get_forms_does_not_create_records (tours.tests.TourTests.test_get_forms_does_not_create_records) ... ok
+test_html_is_escaped (tours.tests.TourTests.test_html_is_escaped) ... ok
+test_invalid_category (tours.tests.TourTests.test_invalid_category) ... ok
+test_invalid_comment_fields (tours.tests.TourTests.test_invalid_comment_fields) ... ok
+test_invalid_profile (tours.tests.TourTests.test_invalid_profile) ... ok
+test_invalid_tour_fields (tours.tests.TourTests.test_invalid_tour_fields) ... ok
+test_many_categories_and_many_tours (tours.tests.TourTests.test_many_categories_and_many_tours) ... ok
+test_missing_tour (tours.tests.TourTests.test_missing_tour) ... ok
+test_multiple_comments_allowed (tours.tests.TourTests.test_multiple_comments_allowed) ... ok
+test_one_profile_per_user_database (tours.tests.TourTests.test_one_profile_per_user_database) ... ok
+test_other_tour_visit_rejected (tours.tests.TourTests.test_other_tour_visit_rejected) ... ok
+test_other_users_visit_rejected (tours.tests.TourTests.test_other_users_visit_rejected) ... ok
+test_price_constraint_database (tours.tests.TourTests.test_price_constraint_database) ... ok
+test_profile_cannot_modify_another_user (tours.tests.TourTests.test_profile_cannot_modify_another_user) ... ok
+test_profile_create_and_update (tours.tests.TourTests.test_profile_create_and_update) ... ok
+test_rating_constraint_database (tours.tests.TourTests.test_rating_constraint_database) ... ok
+test_staff_create_category (tours.tests.TourTests.test_staff_create_category) ... ok
+test_staff_create_tour_with_categories (tours.tests.TourTests.test_staff_create_tour_with_categories) ... ok
+test_unconfirmed_visit_rejected (tours.tests.TourTests.test_unconfirmed_visit_rejected) ... ok
+test_unsupported_methods (tours.tests.TourTests.test_unsupported_methods) ... ok
+test_valid_csrf_submission (tours.tests.TourTests.test_valid_csrf_submission) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 17.104s
+
+OK
+Destroying test database for alias 'default' ('file:memorydb_default?mode=memory&cache=shared')...
+ OK
+System check identified no issues (0 silenced).

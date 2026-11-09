@@ -1,0 +1,162 @@
+[
+  {
+    "test": "tours.tests.TourTests.test_admindocs_models_and_views",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_admindocs_requires_staff",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_anonymous_cannot_submit",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_booking_ignores_forged_identity_and_attendance",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_booking_invalid_dates",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_booking_post",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_catalog_and_detail",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_client_cannot_create_tours_or_categories",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_comment_cannot_forge_user_or_tour",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_comment_rating_boundaries",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_comment_without_booking_rejected",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_csrf_all_forms",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_different_times_allowed",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_different_users_same_time_allowed",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_duplicate_booking_database",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_duplicate_booking_post",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_empty_catalog",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_future_attendance_rejected",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_future_visit_rejected",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_get_forms_does_not_create_records",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_html_is_escaped",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_invalid_category",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_invalid_comment_fields",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_invalid_profile",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_invalid_tour_fields",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_many_categories_and_many_tours",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_missing_tour",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_multiple_comments_allowed",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_one_profile_per_user_database",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_other_tour_visit_rejected",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_other_users_visit_rejected",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_price_constraint_database",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_profile_cannot_modify_another_user",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_profile_create_and_update",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_rating_constraint_database",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_staff_create_category",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_staff_create_tour_with_categories",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_unconfirmed_visit_rejected",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_unsupported_methods",
+    "status": "PASS"
+  },
+  {
+    "test": "tours.tests.TourTests.test_valid_csrf_submission",
+    "status": "PASS"
+  }
+]
