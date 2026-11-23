@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Вход{% endblock %}
+{% block content %}
+<h1>Вход</h1>
+<form method="post">
+  {% csrf_token %}
+  {{ form.non_field_errors }}
+  <p>{{ form.username.label_tag }} {{ form.username }} {{ form.username.errors }}</p>
+  <p>{{ form.password.label_tag }} {{ form.password }} {{ form.password.errors }}</p>
+  <div>
+    {{ form.captcha.label_tag }}
+    <img class="captcha" src="{% url 'captcha-image' challenge_id %}" width="220" height="65" alt="Капча из пяти цифр">
+    <input type="hidden" name="captcha_id" value="{{ challenge_id }}">
+    <input type="hidden" name="next" value="{{ next }}">
+    {{ form.captcha.as_widget }} {{ form.captcha.errors }}
+  </div>
+  <p><button>Войти</button></p>
+</form>
+<a href="{% url 'register' %}">Создать аккаунт</a>
+{% endblock %}
